@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bassorilievo da Height Map</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <canvas id="canvas"></canvas>
+
+    <div class="buttons">
+      <button onclick="loadExample('sand')">Esempio Sabbia</button>
+      <button onclick="loadExample('metal')">Esempio Metallo</button>
+      <button onclick="loadExample('leather')">Esempio Pelle</button>
+    </div>
+
+    <label>Carica Texture: <input type="file" id="textureInput" accept="image/*"></label>
+    <label>Carica Mappa Altezza: <input type="file" id="heightInput" accept="image/*"></label>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
